@@ -1,0 +1,198 @@
+$date
+	Thu Oct 15 19:30:59 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module csla_16bit_tb $end
+$var wire 16 ! sum [15:0] $end
+$var wire 1 " cout $end
+$var reg 16 # a [15:0] $end
+$var reg 16 $ b [15:0] $end
+$var reg 1 % cin $end
+$scope module uut $end
+$var wire 16 & a [15:0] $end
+$var wire 16 ' b [15:0] $end
+$var wire 1 % cin $end
+$var wire 16 ( sum [15:0] $end
+$var wire 1 " cout $end
+$var wire 5 ) c [4:0] $end
+$scope begin select_blocks[0] $end
+$var parameter 2 * i $end
+$scope module block_inst $end
+$var wire 4 + a [3:0] $end
+$var wire 4 , b [3:0] $end
+$var wire 1 - cin $end
+$var wire 4 . sum1 [3:0] $end
+$var wire 4 / sum0 [3:0] $end
+$var wire 4 0 sum [3:0] $end
+$var wire 1 1 cout1 $end
+$var wire 1 2 cout0 $end
+$var wire 1 3 cout $end
+$upscope $end
+$upscope $end
+$scope begin select_blocks[1] $end
+$var parameter 2 4 i $end
+$scope module block_inst $end
+$var wire 4 5 a [3:0] $end
+$var wire 4 6 b [3:0] $end
+$var wire 1 7 cin $end
+$var wire 4 8 sum1 [3:0] $end
+$var wire 4 9 sum0 [3:0] $end
+$var wire 4 : sum [3:0] $end
+$var wire 1 ; cout1 $end
+$var wire 1 < cout0 $end
+$var wire 1 = cout $end
+$upscope $end
+$upscope $end
+$scope begin select_blocks[2] $end
+$var parameter 3 > i $end
+$scope module block_inst $end
+$var wire 4 ? a [3:0] $end
+$var wire 4 @ b [3:0] $end
+$var wire 1 A cin $end
+$var wire 4 B sum1 [3:0] $end
+$var wire 4 C sum0 [3:0] $end
+$var wire 4 D sum [3:0] $end
+$var wire 1 E cout1 $end
+$var wire 1 F cout0 $end
+$var wire 1 G cout $end
+$upscope $end
+$upscope $end
+$scope begin select_blocks[3] $end
+$var parameter 3 H i $end
+$scope module block_inst $end
+$var wire 4 I a [3:0] $end
+$var wire 4 J b [3:0] $end
+$var wire 1 K cin $end
+$var wire 4 L sum1 [3:0] $end
+$var wire 4 M sum0 [3:0] $end
+$var wire 4 N sum [3:0] $end
+$var wire 1 O cout1 $end
+$var wire 1 P cout0 $end
+$var wire 1 Q cout $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 H
+b10 >
+b1 4
+b0 *
+$end
+#0
+$dumpvars
+0Q
+0P
+0O
+b11 N
+b11 M
+b100 L
+0K
+b10 J
+b1 I
+0G
+0F
+0E
+b11 D
+b11 C
+b100 B
+0A
+b10 @
+b1 ?
+0=
+0<
+0;
+b11 :
+b11 9
+b100 8
+07
+b10 6
+b1 5
+03
+02
+01
+b11 0
+b11 /
+b100 .
+0-
+b10 ,
+b1 +
+b0 )
+b11001100110011 (
+b10001000100010 '
+b1000100010001 &
+0%
+b10001000100010 $
+b1000100010001 #
+0"
+b11001100110011 !
+$end
+#10
+1"
+1Q
+1K
+1G
+1A
+1=
+17
+b0 :
+b0 D
+b0 N
+b0 !
+b0 (
+b0 0
+13
+11
+1;
+1E
+1O
+b1111 /
+b0 .
+b1111 9
+b0 8
+b1111 C
+b0 B
+b1111 M
+b0 L
+1-
+b101 ,
+b101 6
+b101 @
+b101 J
+b1010 +
+b1010 5
+b1010 ?
+b1010 I
+b11111 )
+1%
+b101010101010101 $
+b101010101010101 '
+b1010101010101010 #
+b1010101010101010 &
+#20
+b0 /
+12
+b1 .
+0-
+b1 ,
+b0 6
+b0 @
+b0 J
+b1111 +
+b1111 5
+b1111 ?
+b1111 I
+b11110 )
+0%
+b1 $
+b1 '
+b1111111111111111 #
+b1111111111111111 &
+#30
